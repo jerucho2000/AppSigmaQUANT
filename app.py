@@ -496,7 +496,7 @@ def create_win_loss_donut(metrics: dict) -> go.Figure:
             font=dict(size=28, color=COLORS["orange"], family="Arial"),
             showarrow=False
         )]
-    ))
+    )
     
     return fig
 
